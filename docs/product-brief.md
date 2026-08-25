@@ -1,6 +1,6 @@
 # Product brief: SBA Loan Preflight v1.0
 
-**Status:** Proposed  
+**Status:** Shipped as v1.0.0  
 **Owner:** Dilia Wood  
 **Prepared:** 2026-08-25  
 **Repository:** `dw-3/sba-loan-preflight`
@@ -232,16 +232,15 @@ Automated checks supplement, but do not replace, keyboard and screen-reader-orie
 
 ## Technical direction
 
-Proposed stack:
+Implemented stack:
 
 - TypeScript
-- React
-- Vite
+- React 19
+- Vinext/Vite
 - a pure calculation module
-- Vitest for unit and component tests
-- Playwright for critical browser behavior
-- static deployment through GitHub Pages
-- GitHub Actions for test, build, and deployment workflows
+- the Node test runner for calculation and rendered-output checks
+- OpenAI Sites for production deployment
+- GitHub Actions for continuous integration
 
 The public calculation core must not depend on React so it can later support:
 
