@@ -2,7 +2,7 @@
 
 A privacy-first repayment preflight for small-business borrowers, developed from [Dilia Wood's public SBA loan preparation article](https://www.diliawood.com/sba-loan-what-to-do-before-you-apply/).
 
-**Live application:** [sba-loan-preflight.hello643869.chatgpt.site](https://sba-loan-preflight.hello643869.chatgpt.site)
+**Live application:** [preflight.diliawood.com](https://preflight.diliawood.com)
 
 The application models a proposed principal-and-interest payment, adds existing annual business debt service, and compares the resulting debt service coverage ratio (DSCR) with a threshold selected by the borrower. It is educational preparation—not a lender decision engine.
 

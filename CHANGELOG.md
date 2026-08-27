@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-08-27
+
+### Changed
+
+- Established `preflight.diliawood.com` as the canonical public application URL
+- Added canonical and Open Graph URL metadata for reliable professional sharing
+
 ## 1.0.0 — 2026-08-25
 
 ### Added

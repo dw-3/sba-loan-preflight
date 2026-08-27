@@ -2,13 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sba-loan-preflight.hello643869.chatgpt.site"),
+  metadataBase: new URL("https://preflight.diliawood.com"),
   title: "SBA Loan Preflight",
   description: "A privacy-first repayment preflight for small-business borrowers. Model DSCR with transparent arithmetic—without sending or storing your inputs.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "SBA Loan Preflight",
     description: "Model repayment. See the relationship. Keep your numbers private.",
     type: "website",
+    url: "/",
     images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "SBA Loan Preflight — Model repayment. See the relationship. Keep your numbers private." }],
   },
   twitter: {
